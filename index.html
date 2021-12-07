@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Final</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/a.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="navbar">
+                <a href="#default" id="logo" style="margin-left:30px;margin-top:-10px;"><img src="./img/logo.png" style="height:100px;"> </a>
+                <div id="navbar-right" >
+                  <a href="#home" style="margin-right: 10px;margin-top: 40px; font-size: 25px;">Trang chủ</a>
+                  <a href="#contact" style="margin-right: 10px;margin-top: 40px; font-size: 25px;">Tour trekking</a>
+                  <a href="#about" style="margin-right: 10px;margin-top: 40px; font-size: 25px;">Tour biển</a>
+                  <a href="#about" style="margin-right: 10px;margin-top: 40px; font-size: 25px;">Team building</a>
+                  <a href="#contact" style="margin-right: 50px;margin-top: 40px; font-size: 25px;">Liên hệ</a>
+                </div>
+            </div>
+
+            <div id="header" style="background-image: url(./img/header.jpg); height: 600px;">
+                <div class="header_text">                    
+                    <h1 class="text_1">LET'S GO</h1>
+                    <h3 class="text_2">Tuổi trẻ nơi chinh phục những ước mơ
+                    <br>Nỗ lực nơi chinh phục những thành công</h3>
+                </div>
+            </div>
+            
+            <div class="button-container">
+                <button class="btn">Thông tin</button>
+            </div>
+
+            <div class="silder">
+              <div class="mySlides fade">
+                <img src="./img/banner 1.jpg" style="width:100%">
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="./img/banner 2.jpg" style="width:100%">
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="./img/banner 3.jpg" style="width:100%">
+              </div>
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="container_2">
+              <div class="left">
+                <h2>Sảng khoái</h2>
+              </div>
+              <div class="middle">
+                <h2>Hùng vĩ</h2>
+              </div>  
+              <div class="right">
+                <h2>Tự do</h2>
+              </div>
+
+            </div>
+            <div class="container_4">
+              <div class="box1">
+              </div>
+              <div class="box2">
+                <p class="text_3">Sở dĩ đi trekking được khá nhiều người yêu thích bởi nó mang đến cho người tham gia một cảm giác hoàn toàn tự do. Khi thực hiện go Trekking, mọi người sẽ phải ăn ở, sinh hoạt và di chuyển ở địa điểm đã chọn sẵn mà không có sự hỗ trợ của các phương tiện khác. Bởi vậy để có thể vượt qua thử thách, sinh tồn trong điều kiện tự nhiên, người tham gia cần phải chuẩn bị đầy đủ các trang thiết bị cần thiết.
+
+                  Xem qua video đi trekking hoà mình vào thiên nhiên này để hiểu rõ hơn trekking là gì nhé!</p>
+              </div>
+            </div>
+            <div class="container_2">
+              <div class="left2">
+                <h2 class="text_4">Tour trekking</h2>
+              </div>
+              <div class="middle2">
+                <h2 class="text_4">Tour biển</h2>
+              </div>  
+              <div class="right2">
+                <h2 class="text_4">Teambuilding</h2>
+              </div>
+
+            </div><br><br><br><br>
+            
+<h1 style="text-align: center;">Liên hệ với chúng tôi</h1>
+
+<div class="container_3">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Tên</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="name" name="name" placeholder="Nhập họ và tên..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="mail" name="mail" placeholder="Nhập địa chỉ email..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Tel</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Tel" name="tel" placeholder="Nhập số điện thoại..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Dịch vụ</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="dichvu">
+        <option value="trekking">Tour trekking</option>
+        <option value="bien">Tour biển</option>
+        <option value="teambuilding">Team building</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Ghi chú</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Hãy viết ghi chú của bạn.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+<div class="container_5">
+  <div class="footer_left">
+    <h1>Thông tin liên hệ</h1>
+    
+      <span class="text_5">Địa chỉ:</span>
+      <span class="text_6">214 Nguyễn Đình Chiểu, Phường 6, Quận 3, TP.HCM</span>
+      <br><br>
+      
+      <span class="text_5">SĐT:</span>
+      <span class="text_6">+84 1234567890</span>
+      <br><br>
+      
+      <span class="text_5">Email:</span>
+      <span class="text_6">summercamp@gmail.com</span>
+       <br><br>
+      
+      <span class="text_5">Thời gian làm việc</span>
+      <span class="text_6"> 9.00 am - 5.00 pm</span>      
+    </div>
+    <div class="footer_right">
+      <img src="./img/logo.png" width="160" alt=""/>
+      <p class="text_7">Summer Camp</p>
+    </div>
+</div>
+            
+        </div>
+
+
+        <script>
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("navbar").style.padding = "10px 10px";
+                document.getElementById("logo").style.fontSize = "20px";
+                document.getElementById("navbar").style.backgroundColor = "rgba(47, 72, 76, 1)";
+              } else {
+                document.getElementById("navbar").style.padding = "30px 10px";
+                document.getElementById("logo").style.fontSize = "30px";
+                document.getElementById("navbar").style.backgroundColor = "rgba(15, 153, 163, 0)";
+              }
+            }
+            </script>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+              
+    </body>
+</html>
